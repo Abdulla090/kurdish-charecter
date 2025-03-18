@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Soran & Shirin - Kurdish AI",
+    "slug": "chatbot-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "scheme": "chatbot-app",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.soranshirin.chatbotapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.soranshirin.chatbotapp",
+      "versionCode": 1,
+      "permissions": [],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "soran-shirin-ai.vercel.app"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8871f188-acf7-40d9-a821-8fee49493848"
+      }
+    },
+    "owner": "abdullla001"
+  }
+}
